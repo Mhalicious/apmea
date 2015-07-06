@@ -284,4 +284,5 @@
     type: 'char'
   };
 
+
 }(jQuery));

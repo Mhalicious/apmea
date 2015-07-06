@@ -1,0 +1,1 @@
+function slide(){console.log("slide");var e=document.getElementById("slide");e.style.visibility="visible",e.style.height=t;var i=-800,t=50,n=250,l=setInterval(function(){i+=5,e.style.left=i+"px",i>=200&&clearInterval(l)},5)}function time(){console.log("time"),window.setTimeout("slide()",4e3)}var w=window.innerWidth,h=window.innerHeight;

@@ -6,11 +6,12 @@
 
 body {
   margin: 0;
-  background: #282828;
+  background: #990000;
   color: #eee;
-  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
@@ -22,7 +23,7 @@ h2 {
   font-weight: 200;
   color: #888;
   letter-spacing: 1px;
-} 
+}
 
 section {
   margin-bottom: 20px;
@@ -58,6 +59,20 @@ a:hover {
   max-width: 940px;
   margin-right: auto;
   margin-left: auto;
+  background: #990000;
+
+}
+
+#slide {
+  position: absolute;
+  left: -1000px;
+  top: 71%;
+  width: 70vw;
+  height: 2%;
+	visibility : hidden;
+
+  background-color: white;
+
 }
 
 /* EFFECTS
@@ -72,7 +87,7 @@ a:hover {
 }
 
 .glow.in {
-  text-shadow: 
+  text-shadow:
     0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8),
     0 0 0.5em rgba(255, 255, 255, 0.3);
 }
@@ -146,12 +161,12 @@ a:hover {
   position: relative;
   padding: 3em 0;
   text-align: center;
-  background: #242424;
+  background: #990000;
 }
 
 .jumbotron h1 {
   color: #fff;
-  font-family: Rokkitt;
+  font-family: 'Muli', sans-serif;
   font-size: 13em;
   font-weight: 200;
   text-shadow: 0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8);
@@ -163,7 +178,7 @@ a:hover {
 }
 
 .jumbotron p {
-  margin-top: -1em;
+  margin-top: 1%;
   letter-spacing: 0.15em;
   color: #ccc;
   font-size: 1.25em;
@@ -258,8 +273,8 @@ a:hover {
   font-weight: 200;
 }
 
-/* GRID 
-***************/ 
+/* GRID
+***************/
 
 .grid:after {
   content: "";
@@ -390,7 +405,7 @@ label.checkbox {
   vertical-align: top;
 }
 
-/* CODE 
+/* CODE
 **************/
 
 pre code {
